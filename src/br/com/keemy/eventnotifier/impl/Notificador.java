@@ -1,9 +1,14 @@
+package br.com.keemy.eventnotifier.impl;
+
+import br.com.keemy.eventnotifier.models.Pessoa;
+import br.com.keemy.eventnotifier.interfaces.INotificador;
+
 import java.util.ArrayList;
 import java.util.Formatter;
 import java.util.Iterator;
 import java.util.List;
 
-public class Notificador implements INotificador{
+public class Notificador implements INotificador {
 
     private static Notificador instance;
     private String mensagem;

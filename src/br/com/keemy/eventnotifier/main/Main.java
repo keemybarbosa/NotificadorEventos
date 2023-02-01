@@ -1,3 +1,8 @@
+package br.com.keemy.eventnotifier.main;
+
+import br.com.keemy.eventnotifier.impl.Notificador;
+import br.com.keemy.eventnotifier.models.Pessoa;
+
 import java.util.Scanner;
 
 public class Main {

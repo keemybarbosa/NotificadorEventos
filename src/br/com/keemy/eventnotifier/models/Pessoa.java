@@ -1,3 +1,5 @@
+package br.com.keemy.eventnotifier.models;
+
 public class Pessoa {
 
     private String nome;
